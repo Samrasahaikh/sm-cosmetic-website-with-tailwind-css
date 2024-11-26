@@ -46,13 +46,6 @@ const Navbar = ({ setShowCart }: any) => {
             className="relative cursor-pointer"
             onClick={() => setShowCart(true)}
           >
-            <AiOutlineShoppingCart className="transition duration-300 hover:scale-110 hover:text-accent" />
-            <div
-              className="absolute top-[-15px] right-[-10px] bg-red-600 w-[25px] h-[25px] 
-              rounded-full text-white text-[14px] grid place-items-center"
-            >
-              0 {/* Replace with cart count */}
-            </div>
           </div>
           <AiOutlineSearch className="transition duration-300 hover:scale-110 hover:text-accent"/>
         </div>
